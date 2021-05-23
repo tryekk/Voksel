@@ -18,7 +18,7 @@ using namespace tem;
 int main(int argc, char** argv) {
 	SDL_Init(SDL_INIT_EVERYTHING);
 
-    Display display(810, 610, "Voksel");
+    Display display(1280, 720, "Voksel");
     Game game(display);
     
     float currentTime = 0.f;
