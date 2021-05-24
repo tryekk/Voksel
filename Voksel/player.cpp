@@ -42,10 +42,10 @@ void Player::Update(float elapsedTime) {
     position.z += velocity.z * elapsedTime;
     
     /* Rotational motion */
-    float dragForceRotation = -2.f * angularVelocity.y;
+    float dragForceRotation = -5.f * angularVelocity.y;
     vec3 dragAccRotation = { 0, dragForceRotation, 0 };
     angularAcceleration += dragAccRotation;
-    angularVelocity += angularAcceleration * elapsedTime;
+    angularVelocity += (angularAcceleration * 0.1) * elapsedTime;
 
     if(abs(angularVelocity.y) < 0.005) {
         angularVelocity.y = 0;

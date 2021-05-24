@@ -1,3 +1,3 @@
-﻿  main.cpp
-C:\Users\tomat\Documents\Code projects\Voksel\Voksel\main.cpp(30,35): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+﻿  player.cpp
+C:\Users\tomat\Documents\Code projects\Voksel\Voksel\player.cpp(48,50): warning C4305: 'argument': truncation from 'double' to 'const float'
   Voksel.vcxproj -> C:\Users\tomat\Documents\Code projects\Voksel\Voksel\Debug\Voksel.exe
